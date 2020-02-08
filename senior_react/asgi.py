@@ -1,5 +1,5 @@
 """
-ASGI config for Senior project.
+ASGI config for senior_react project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Senior.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'senior_react.settings')
 
 application = get_asgi_application()
